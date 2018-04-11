@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26366AD61C9FF8B8005A6E96 /* QPLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26366AD41C9FF8B8005A6E96 /* QPLiveViewController.m */; };
+		26366AD71C9FF8B8005A6E96 /* QPLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26366AD51C9FF8B8005A6E96 /* QPLiveViewController.xib */; };
+		265383AA1C435D2900C6E4DF /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCD5F41C045FB700B0CC33 /* libstdc++.tbd */; };
+		26C46B1B1C0D6B3C0068639C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C46B1A1C0D6B3C0068639C /* VideoToolbox.framework */; };
+		26C46B341C104C0C0068639C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C46B331C104C0C0068639C /* AudioToolbox.framework */; };
+		26CCD5731C0458A300B0CC33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCD5721C0458A300B0CC33 /* main.m */; };
+		26CCD5761C0458A300B0CC33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCD5751C0458A300B0CC33 /* AppDelegate.m */; };
+		26CCD5791C0458A300B0CC33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCD5781C0458A300B0CC33 /* ViewController.m */; };
+		26CCD57C1C0458A300B0CC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CCD57A1C0458A300B0CC33 /* Main.storyboard */; };
+		26CCD57E1C0458A300B0CC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CCD57D1C0458A300B0CC33 /* Assets.xcassets */; };
+		26CCD5811C0458A300B0CC33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CCD57F1C0458A300B0CC33 /* LaunchScreen.storyboard */; };
+		26CCD6BD1C047DC700B0CC33 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCD6BC1C047DC700B0CC33 /* libz.tbd */; };
+		6C1039811D4B276F005B0FF2 /* QPLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1039801D4B276F005B0FF2 /* QPLive.framework */; };
+		6C1039831D4B27A7005B0FF2 /* watermask.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1039821D4B27A7005B0FF2 /* watermask.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26366AD31C9FF8B8005A6E96 /* QPLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPLiveViewController.h; sourceTree = "<group>"; };
+		26366AD41C9FF8B8005A6E96 /* QPLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPLiveViewController.m; sourceTree = "<group>"; };
+		26366AD51C9FF8B8005A6E96 /* QPLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPLiveViewController.xib; sourceTree = "<group>"; };
+		26C46B1A1C0D6B3C0068639C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		26C46B241C0EB7040068639C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		26C46B331C104C0C0068639C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		26CCD56E1C0458A300B0CC33 /* DemoQPLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoQPLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CCD5721C0458A300B0CC33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26CCD5741C0458A300B0CC33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26CCD5751C0458A300B0CC33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26CCD5771C0458A300B0CC33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26CCD5781C0458A300B0CC33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26CCD57B1C0458A300B0CC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26CCD57D1C0458A300B0CC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26CCD5801C0458A300B0CC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26CCD5821C0458A300B0CC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CCD5F41C045FB700B0CC33 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		26CCD6BC1C047DC700B0CC33 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6C1039801D4B276F005B0FF2 /* QPLive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPLive.framework; sourceTree = "<group>"; };
+		6C1039821D4B27A7005B0FF2 /* watermask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermask.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CCD56B1C0458A300B0CC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265383AA1C435D2900C6E4DF /* libstdc++.tbd in Frameworks */,
+				26C46B341C104C0C0068639C /* AudioToolbox.framework in Frameworks */,
+				6C1039811D4B276F005B0FF2 /* QPLive.framework in Frameworks */,
+				26C46B1B1C0D6B3C0068639C /* VideoToolbox.framework in Frameworks */,
+				26CCD6BD1C047DC700B0CC33 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CCD5651C0458A300B0CC33 = {
+			isa = PBXGroup;
+			children = (
+				6C1039801D4B276F005B0FF2 /* QPLive.framework */,
+				26CCD5701C0458A300B0CC33 /* LiveCapture */,
+				26CCD56F1C0458A300B0CC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26CCD56F1C0458A300B0CC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CCD56E1C0458A300B0CC33 /* DemoQPLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CCD5701C0458A300B0CC33 /* LiveCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6C1039821D4B27A7005B0FF2 /* watermask.png */,
+				26CCD5741C0458A300B0CC33 /* AppDelegate.h */,
+				26CCD5751C0458A300B0CC33 /* AppDelegate.m */,
+				26CCD5771C0458A300B0CC33 /* ViewController.h */,
+				26CCD5781C0458A300B0CC33 /* ViewController.m */,
+				26CCD57A1C0458A300B0CC33 /* Main.storyboard */,
+				26CCD57D1C0458A300B0CC33 /* Assets.xcassets */,
+				26CCD57F1C0458A300B0CC33 /* LaunchScreen.storyboard */,
+				26CCD5821C0458A300B0CC33 /* Info.plist */,
+				26CCD5711C0458A300B0CC33 /* Supporting Files */,
+				26366AD31C9FF8B8005A6E96 /* QPLiveViewController.h */,
+				26366AD41C9FF8B8005A6E96 /* QPLiveViewController.m */,
+				26366AD51C9FF8B8005A6E96 /* QPLiveViewController.xib */,
+			);
+			path = LiveCapture;
+			sourceTree = "<group>";
+		};
+		26CCD5711C0458A300B0CC33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CCD6BC1C047DC700B0CC33 /* libz.tbd */,
+				26CCD5F41C045FB700B0CC33 /* libstdc++.tbd */,
+				26C46B331C104C0C0068639C /* AudioToolbox.framework */,
+				26C46B1A1C0D6B3C0068639C /* VideoToolbox.framework */,
+				26CCD5721C0458A300B0CC33 /* main.m */,
+				26C46B241C0EB7040068639C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26CCD56D1C0458A300B0CC33 /* DemoQPLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CCD5851C0458A300B0CC33 /* Build configuration list for PBXNativeTarget "DemoQPLive" */;
+			buildPhases = (
+				26CCD56A1C0458A300B0CC33 /* Sources */,
+				26CCD56B1C0458A300B0CC33 /* Frameworks */,
+				26CCD56C1C0458A300B0CC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoQPLive;
+			productName = LiveCapture;
+			productReference = 26CCD56E1C0458A300B0CC33 /* DemoQPLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CCD5661C0458A300B0CC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lyle;
+				TargetAttributes = {
+					26CCD56D1C0458A300B0CC33 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = MWYKGVPTJP;
+					};
+				};
+			};
+			buildConfigurationList = 26CCD5691C0458A300B0CC33 /* Build configuration list for PBXProject "DemoQPLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26CCD5651C0458A300B0CC33;
+			productRefGroup = 26CCD56F1C0458A300B0CC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CCD56D1C0458A300B0CC33 /* DemoQPLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CCD56C1C0458A300B0CC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CCD5811C0458A300B0CC33 /* LaunchScreen.storyboard in Resources */,
+				26366AD71C9FF8B8005A6E96 /* QPLiveViewController.xib in Resources */,
+				26CCD57E1C0458A300B0CC33 /* Assets.xcassets in Resources */,
+				6C1039831D4B27A7005B0FF2 /* watermask.png in Resources */,
+				26CCD57C1C0458A300B0CC33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CCD56A1C0458A300B0CC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CCD5791C0458A300B0CC33 /* ViewController.m in Sources */,
+				26366AD61C9FF8B8005A6E96 /* QPLiveViewController.m in Sources */,
+				26CCD5761C0458A300B0CC33 /* AppDelegate.m in Sources */,
+				26CCD5731C0458A300B0CC33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26CCD57A1C0458A300B0CC33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CCD57B1C0458A300B0CC33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26CCD57F1C0458A300B0CC33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CCD5801C0458A300B0CC33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26CCD5831C0458A300B0CC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26CCD5841C0458A300B0CC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26CCD5861C0458A300B0CC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shutian Ou (M54VSNEJ54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shutian Ou (M54VSNEJ54)";
+				DEVELOPMENT_TEAM = MWYKGVPTJP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveCapture/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LiveCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.tjl1;
+				PRODUCT_NAME = DemoQPLive;
+				PROVISIONING_PROFILE = "484fd3a3-722f-48fd-9f46-edc9a2129b93";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS Ad Hoc: *";
+			};
+			name = Debug;
+		};
+		26CCD5871C0458A300B0CC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MWYKGVPTJP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveCapture/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LiveCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.tjl1;
+				PRODUCT_NAME = DemoQPLive;
+				PROVISIONING_PROFILE = "b2814c16-73c7-4633-a5dd-d15eb73ef9fd";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CCD5691C0458A300B0CC33 /* Build configuration list for PBXProject "DemoQPLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CCD5831C0458A300B0CC33 /* Debug */,
+				26CCD5841C0458A300B0CC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CCD5851C0458A300B0CC33 /* Build configuration list for PBXNativeTarget "DemoQPLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CCD5861C0458A300B0CC33 /* Debug */,
+				26CCD5871C0458A300B0CC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26CCD5661C0458A300B0CC33 /* Project object */;
+}

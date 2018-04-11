@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  LiveCapture
+//
+//  Created by yly on 15/12/2.
+//  Copyright © 2015年 lyle. All rights reserved.
+//
+
+
+#define kQPAppKey @"209fc5374d59a49"//使用自己的AppKey
+#define kQPAppSecret @"c121e694cf044fcf8f67ce5fb9baf73b"//使用自己的AppSecret
+#define kQPDomain @"http://duanqulive.s.qupai.me"//域名使用控制台空间管理自己的域名

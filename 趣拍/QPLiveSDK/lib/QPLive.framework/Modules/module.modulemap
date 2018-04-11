@@ -1,0 +1,6 @@
+framework module QPLive {
+  umbrella header "QPLive.h"
+
+  export *
+  module * { export * }
+}
