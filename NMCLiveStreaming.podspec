@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
  # s.frameworks =  'AudioToolbox', 'VideoToolbox' 
  # s.libraries  = 'sqlite3.0', 'z.1', 'c++', 'resolv'
-  s.resources    = '**/NMCVideoFilter.bundle' 
+  s.resources    = '**/NMCLiveStreaming/NMCVideoFilter.bundle' 
 end
