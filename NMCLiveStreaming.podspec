@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "NMCLiveStreaming"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Netease NMCLiveStreaming Framework"
-  s.homepage     = "http://netease.im" 
+  s.homepage     = "http://github.com/vcloud163" 
   s.license     = { :type => "MIT", :file => "LICENSE" }
   s.authors      = "Netease VCloud Team" 
  # s.source       = { :http => "http://yx-web.nosdn.127.net/package/LiveStreaming_iOS_SDK_V#{s.version}.zip"}
