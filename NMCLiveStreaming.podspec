@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NMCLiveStreaming"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Netease NMCLiveStreaming Framework"
   s.homepage     = "http://github.com/vcloud163" 
   s.license     = { :type => "MIT", :file => "LICENSE" }
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
  # s.frameworks =  'AudioToolbox', 'VideoToolbox' 
  # s.libraries  = 'sqlite3.0', 'z.1', 'c++', 'resolv'
   s.resources    = '**/NMCLiveStreaming/NMCVideoFilter.bundle' 
+  s.frameworks =  '**/NMCLiveStreaming/NMCLiveStreaming.framework'
 end
