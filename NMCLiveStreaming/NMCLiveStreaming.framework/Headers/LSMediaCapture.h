@@ -366,7 +366,7 @@ typedef void(^LSUploadLogFileBlock)(BOOL hasSucceed);
  @param videoResolution  分辨率
  @param videoResolutionBlock  回调
  */
-- (void)switchVideoStreamingQuality:(LSVideoStreamingQuality)videoResolution block:(LSVideoStreamingQualityBlock)videoResolutionBlock;
+- (BOOL)switchVideoStreamingQuality:(LSVideoStreamingQuality)videoResolution block:(LSVideoStreamingQualityBlock)videoResolutionBlock;
 
 /**
  直播推流之前设置如下参数
