@@ -240,10 +240,9 @@ typedef void(^LSUploadLogFileBlock)(BOOL hasSucceed);
 
  @param recordFileName 本地录制的文件全路径
  @param videoStreamingQuality 需要录制的mp4文件的分辨率，不能大于采集的分辨率
- @param bitrate 视频码率
  @return 是否成功
  */
-- (BOOL)startRecord:(NSString *)recordFileName videoStreamingQuality:(LSVideoStreamingQuality)videoStreamingQuality videoBitrate:(NSInteger)bitrate;
+- (BOOL)startRecord:(NSString *)recordFileName videoStreamingQuality:(LSVideoStreamingQuality)videoStreamingQuality;
 
 /**
  *  停止本地录制
